@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<widget
+    android-versionCode = '1'
+    id = 'com.Ondra.QuizApp'
+    version = '1.0.0'
+    xmlns = 'https://www.w3.org/ns/widgets'>
+
+    <name>QuizApp</name>
+    <description>A simple trivia Quizz</description>
+    <author>Ondra</author>
+
+    <preference name = 'orientation' value = 'portrait'/>
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+</widget>
