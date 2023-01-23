@@ -1,0 +1,357 @@
+2023-01-23 19:10:55,352 - #1 SMP Debian 5.10.113-1 (2022-04-29)
+2023-01-23 19:10:55,523 - Changing root directory to QuizApp
+2023-01-23 19:10:55,636 - app.framework: cordova
+2023-01-23 19:10:55,637 - Verbose logging is off. Change this in voltbuilder.json
+2023-01-23 19:10:55,637 - VoltBuilder run started at 2023-01-23 19:10:55.637575
+2023-01-23 19:10:55,638 - Plan: Indy
+2023-01-23 19:10:55,638 - Preflight Check
+2023-01-23 19:10:55,639 - adding android to xmlns
+2023-01-23 19:10:55,639 - id is com.Ondra.QuizApp
+2023-01-23 19:10:55,639 - ======================================================
+2023-01-23 19:10:55,640 - Warning! No engine specified. Defaulting to Android 12.
+2023-01-23 19:10:55,640 - This may cause problems if your project has not been updated.
+2023-01-23 19:10:55,640 - See https://volt.build/docs/android_12/
+2023-01-23 19:10:55,640 - ======================================================
+2023-01-23 19:10:56,651 - Output: Creating a new cordova project.
+
+2023-01-23 19:11:06,571 - Output: Using cordova-fetch for cordova-android@11.0.0
+Adding android project...
+Creating Cordova project for the Android platform:
+	Path: platforms/android
+	Package: com.Ondra.QuizApp
+	Name: QuizApp
+	Activity: MainActivity
+	Android Target SDK: android-32
+	Android Compile SDK: 32
+Subproject Path: CordovaLib
+Subproject Path: app
+Android project created with cordova-android@11.0.0
+Platform 'android' found in config.xml... Migrating it to package.json
+
+2023-01-23 19:11:08,555 - Output: 
+Cordova Packages:
+
+    cli: 11.0.0
+        common: 4.1.0
+        create: 4.0.0
+        lib: 11.0.0
+            common: 4.1.0
+            fetch: 3.1.0
+            serve: 4.0.0
+
+Project Installed Platforms:
+
+    android: 11.0.0
+
+Project Installed Plugins:
+
+
+Environment:
+
+    OS: Ubuntu 22.04.1 LTS (linux 5.10.0-14-cloud-amd64) x64
+    Node: v18.12.1
+    npm: 9.2.0
+
+android Environment:
+
+    android:
+Loading local repository...                                                     
+[=========                              ] 25% Loading local repository...       
+[=========                              ] 25% Fetch remote repository...        
+[=======================================] 100% Fetch remote repository...       
+Available Android targets:
+----------
+id: 1 or "android-29"
+     Name: Android API 29
+     Type: Platform
+     API level: 29
+     Revision: 5
+----------
+id: 2 or "android-30"
+     Name: Android API 30
+     Type: Platform
+     API level: 30
+     Revision: 3
+----------
+id: 3 or "android-31"
+     Name: Android API 31
+     Type: Platform
+     API level: 31
+     Revision: 1
+----------
+id: 4 or "android-32"
+     Name: Android API 32
+     Type: Platform
+     API level: 32
+     Revision: 1
+
+
+Project Setting Files:
+
+    config.xml:
+<widget xmlns="https://www.w3.org/ns/widgets" android-versionCode="1" id="com.Ondra.QuizApp" version="1.0.0">
+
+    <name>QuizApp</name>
+    <description>A simple trivia Quizz</description>
+    <author>Ondra</author>
+
+    <preference name="orientation" value="portrait" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+<engine name="android" spec="11.0.0" /><content src="index.html" /></widget>
+
+    package.json:
+--- Start of Cordova JSON Snippet ---
+{
+  "platforms": [
+    "android"
+  ]
+}
+--- End of Cordova JSON Snippet ---
+
+
+2023-01-23 19:11:11,506 - Output: 2023-01-23T19:11:08.675Z cordova-res Paths: (config: '/QuizApp/config.xml') (resources dir: 'resources')
+2023-01-23T19:11:08.679Z cordova-res:platform Running android platform with options: {
+  'adaptive-icon': {
+    icon: { sources: [Array] },
+    foreground: { sources: [Array] },
+    background: { sources: [Array] }
+  },
+  icon: {
+    sources: [
+      '/QuizApp/resources/iconTemplate.png'
+    ]
+  },
+  splash: {
+    sources: [
+      '/QuizApp/resources/splashTemplate.png'
+    ]
+  }
+}
+2023-01-23T19:11:08.679Z cordova-res:platform Building adaptive-icon resources
+2023-01-23T19:11:08.680Z cordova-res:platform Building icon resources for android platform
+2023-01-23T19:11:08.682Z cordova-res:image Source image for icon: {
+  format: 'png',
+  size: 14148,
+  width: 1024,
+  height: 1024,
+  space: 'srgb',
+  channels: 4,
+  depth: 'uchar',
+  density: 300,
+  isProgressive: false,
+  background: { r: 255, g: 255, b: 255 },
+  hasProfile: true,
+  hasAlpha: true,
+  icc: <Buffer 00 00 02 a0 6c 63 6d 73 04 30 00 00 6d 6e 74 72 52 47 42 20 58 59 5a 20 07 e7 00 01 00 17 00 0f 00 0c 00 32 61 63 73 70 4d 53 46 54 00 00 00 00 00 00 ... 622 more bytes>
+}
+2023-01-23T19:11:08.682Z cordova-res:platform Using '/QuizApp/resources/iconTemplate.png' for icon source image for android
+2023-01-23T19:11:08.683Z cordova-res:image Generating 'resources/android/icon/drawable-mdpi-icon.png' (48x48) fit='cover' position='center'
+2023-01-23T19:11:08.685Z cordova-res:image Generating 'resources/android/icon/drawable-ldpi-icon.png' (36x36) fit='cover' position='center'
+2023-01-23T19:11:08.685Z cordova-res:image Generating 'resources/android/icon/drawable-xhdpi-icon.png' (96x96) fit='cover' position='center'
+2023-01-23T19:11:08.686Z cordova-res:image Generating 'resources/android/icon/drawable-hdpi-icon.png' (72x72) fit='cover' position='center'
+2023-01-23T19:11:08.686Z cordova-res:image Generating 'resources/android/icon/drawable-xxhdpi-icon.png' (144x144) fit='cover' position='center'
+2023-01-23T19:11:08.734Z cordova-res:image Generating 'resources/android/icon/drawable-xxxhdpi-icon.png' (192x192) fit='cover' position='center'
+2023-01-23T19:11:08.818Z cordova-res:image Source file missing: resources/android/icon-foreground.png
+2023-01-23T19:11:08.818Z cordova-res:image Source file missing: resources/android/icon-foreground.jpg
+2023-01-23T19:11:08.818Z cordova-res:image Source file missing: resources/android/icon-foreground.jpeg
+2023-01-23T19:11:08.819Z cordova-res:platform Error with adaptive icons: Error
+    at new BaseError (/usr/lib/node_modules/cordova-res/dist/error.js:8:22)
+    at new ResolveSourceImageError (/usr/lib/node_modules/cordova-res/dist/error.js:45:9)
+    at Object.resolveSourceImage (/usr/lib/node_modules/cordova-res/dist/image.js:31:11)
+    at async generateAdaptiveIconResourcesPortion (/usr/lib/node_modules/cordova-res/dist/platform.js:190:20)
+    at async generateAdaptiveIconResources (/usr/lib/node_modules/cordova-res/dist/platform.js:148:74)
+    at async safelyGenerateAdaptiveIconResources (/usr/lib/node_modules/cordova-res/dist/platform.js:128:16)
+    at async Object.run (/usr/lib/node_modules/cordova-res/dist/platform.js:24:28)
+    at async AsyncFunction.CordovaRes [as run] (/usr/lib/node_modules/cordova-res/dist/index.js:35:36)
+    at async AsyncFunction.runCommandLine (/usr/lib/node_modules/cordova-res/dist/index.js:93:28) {
+  errors: [],
+  code: 'BAD_SOURCES'
+}
+2023-01-23T19:11:08.819Z cordova-res:platform Building icon resources for android platform
+2023-01-23T19:11:08.821Z cordova-res:image Source image for icon: {
+  format: 'png',
+  size: 14148,
+  width: 1024,
+  height: 1024,
+  space: 'srgb',
+  channels: 4,
+  depth: 'uchar',
+  density: 300,
+  isProgressive: false,
+  background: { r: 255, g: 255, b: 255 },
+  hasProfile: true,
+  hasAlpha: true,
+  icc: <Buffer 00 00 02 a0 6c 63 6d 73 04 30 00 00 6d 6e 74 72 52 47 42 20 58 59 5a 20 07 e7 00 01 00 17 00 0f 00 0c 00 32 61 63 73 70 4d 53 46 54 00 00 00 00 00 00 ... 622 more bytes>
+}
+2023-01-23T19:11:08.821Z cordova-res:platform Using '/QuizApp/resources/iconTemplate.png' for icon source image for android
+2023-01-23T19:11:08.822Z cordova-res:image Generating 'resources/android/icon/drawable-ldpi-icon.png' (36x36) fit='cover' position='center'
+2023-01-23T19:11:08.822Z cordova-res:image Generating 'resources/android/icon/drawable-mdpi-icon.png' (48x48) fit='cover' position='center'
+2023-01-23T19:11:08.823Z cordova-res:image Generating 'resources/android/icon/drawable-xhdpi-icon.png' (96x96) fit='cover' position='center'
+2023-01-23T19:11:08.823Z cordova-res:image Generating 'resources/android/icon/drawable-xxhdpi-icon.png' (144x144) fit='cover' position='center'
+2023-01-23T19:11:08.823Z cordova-res:image Generating 'resources/android/icon/drawable-xxxhdpi-icon.png' (192x192) fit='cover' position='center'
+2023-01-23T19:11:08.823Z cordova-res:image Generating 'resources/android/icon/drawable-hdpi-icon.png' (72x72) fit='cover' position='center'
+2023-01-23T19:11:08.961Z cordova-res:platform Building splash resources for android platform
+2023-01-23T19:11:08.962Z cordova-res:image Source image for splash: {
+  format: 'png',
+  size: 49232,
+  width: 2732,
+  height: 2732,
+  space: 'srgb',
+  channels: 4,
+  depth: 'uchar',
+  density: 300,
+  isProgressive: false,
+  background: { r: 71, g: 229, b: 216 },
+  hasProfile: true,
+  hasAlpha: true,
+  icc: <Buffer 00 00 02 a0 6c 63 6d 73 04 30 00 00 6d 6e 74 72 52 47 42 20 58 59 5a 20 07 e7 00 01 00 17 00 13 00 04 00 1b 61 63 73 70 4d 53 46 54 00 00 00 00 00 00 ... 622 more bytes>,
+  xmp: <Buffer 3c 3f 78 70 61 63 6b 65 74 20 62 65 67 69 6e 3d 22 ef bb bf 22 20 69 64 3d 22 57 35 4d 30 4d 70 43 65 68 69 48 7a 72 65 53 7a 4e 54 63 7a 6b 63 39 64 ... 3280 more bytes>
+}
+2023-01-23T19:11:08.962Z cordova-res:platform Using '/QuizApp/resources/splashTemplate.png' for splash source image for android
+2023-01-23T19:11:08.963Z cordova-res:image Generating 'resources/android/splash/drawable-land-ldpi-screen.png' (320x240) fit='cover' position='center'
+2023-01-23T19:11:08.964Z cordova-res:image Generating 'resources/android/splash/drawable-land-mdpi-screen.png' (480x320) fit='cover' position='center'
+2023-01-23T19:11:08.964Z cordova-res:image Generating 'resources/android/splash/drawable-land-xhdpi-screen.png' (1280x720) fit='cover' position='center'
+2023-01-23T19:11:08.965Z cordova-res:image Generating 'resources/android/splash/drawable-land-xxhdpi-screen.png' (1600x960) fit='cover' position='center'
+2023-01-23T19:11:08.970Z cordova-res:image Generating 'resources/android/splash/drawable-land-xxxhdpi-screen.png' (1920x1280) fit='cover' position='center'
+2023-01-23T19:11:08.971Z cordova-res:image Generating 'resources/android/splash/drawable-port-ldpi-screen.png' (240x320) fit='cover' position='center'
+2023-01-23T19:11:08.971Z cordova-res:image Generating 'resources/android/splash/drawable-land-hdpi-screen.png' (800x480) fit='cover' position='center'
+2023-01-23T19:11:08.971Z cordova-res:image Generating 'resources/android/splash/drawable-port-mdpi-screen.png' (320x480) fit='cover' position='center'
+2023-01-23T19:11:08.973Z cordova-res:image Generating 'resources/android/splash/drawable-port-xhdpi-screen.png' (720x1280) fit='cover' position='center'
+2023-01-23T19:11:08.973Z cordova-res:image Generating 'resources/android/splash/drawable-port-hdpi-screen.png' (480x800) fit='cover' position='center'
+2023-01-23T19:11:08.973Z cordova-res:image Generating 'resources/android/splash/drawable-port-xxhdpi-screen.png' (960x1600) fit='cover' position='center'
+2023-01-23T19:11:08.973Z cordova-res:image Generating 'resources/android/splash/drawable-port-xxxhdpi-screen.png' (1280x1920) fit='cover' position='center'
+Generated 18 resources for Android
+2023-01-23T19:11:11.477Z cordova-res:cordova:config Orientation preference: undefined
+2023-01-23T19:11:11.478Z cordova-res:cordova:config Creating 'platform' node (not found by xpaths: [ "platform[@name='android']" ])
+2023-01-23T19:11:11.478Z cordova-res:cordova:config Creating 'icon' node (not found by xpaths: [ "icon[@src][@density='ldpi']" ])
+2023-01-23T19:11:11.479Z cordova-res:cordova:config Creating 'icon' node (not found by xpaths: [ "icon[@src][@density='mdpi']" ])
+2023-01-23T19:11:11.479Z cordova-res:cordova:config Creating 'icon' node (not found by xpaths: [ "icon[@src][@density='hdpi']" ])
+2023-01-23T19:11:11.479Z cordova-res:cordova:config Creating 'icon' node (not found by xpaths: [ "icon[@src][@density='xhdpi']" ])
+2023-01-23T19:11:11.479Z cordova-res:cordova:config Creating 'icon' node (not found by xpaths: [ "icon[@src][@density='xxhdpi']" ])
+2023-01-23T19:11:11.479Z cordova-res:cordova:config Creating 'icon' node (not found by xpaths: [ "icon[@src][@density='xxxhdpi']" ])
+2023-01-23T19:11:11.479Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='land-ldpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='land-mdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='land-hdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='land-xhdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='land-xxhdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='land-xxxhdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='port-ldpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='port-mdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='port-hdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='port-xhdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='port-xxhdpi']" ])
+2023-01-23T19:11:11.480Z cordova-res:cordova:config Creating 'splash' node (not found by xpaths: [ "splash[@density='port-xxxhdpi']" ])
+Wrote to config.xml
+
+2023-01-23 19:11:33,840 - Output: The "<splash>" tags were detected and are no longer supported. Please migrate to the "preference" tag "AndroidWindowSplashScreenAnimatedIcon".
+Checking Java JDK and Android SDK versions
+ANDROID_HOME=undefined (recommended setting)
+ANDROID_SDK_ROOT=/opt/android-sdk (DEPRECATED)
+Using Android SDK: /opt/android-sdk
+Reading build config file: /QuizApp/build.json
+Reading the keystore from: /agent/voltbuilder/platforms/assets/debug.p12
+Starting a Gradle Daemon, 3 incompatible Daemons could not be reused, use --status for details
+> Task :wrapper
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+Subproject Path: CordovaLib
+Subproject Path: app
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :CordovaLib:preBuild UP-TO-DATE
+> Task :CordovaLib:preDebugBuild UP-TO-DATE
+> Task :CordovaLib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :CordovaLib:packageDebugRenderscript
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :CordovaLib:writeDebugAarMetadata
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+
+> Task :CordovaLib:compileDebugRenderscript
+The RenderScript APIs are deprecated. They will be removed in Android Gradle plugin 9.0. See the following link for a guide to migrate from RenderScript: https://developer.android.com/guide/topics/renderscript/migrate
+
+> Task :CordovaLib:generateDebugResValues
+> Task :CordovaLib:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :CordovaLib:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :CordovaLib:extractDeepLinksDebug
+> Task :CordovaLib:compileDebugLibraryResources
+> Task :CordovaLib:processDebugManifest
+> Task :CordovaLib:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:mapDebugSourceSetPaths
+> Task :CordovaLib:generateDebugBuildConfig
+> Task :CordovaLib:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :CordovaLib:mergeDebugShaders
+> Task :app:processDebugManifestForPackage
+> Task :CordovaLib:compileDebugShaders NO-SOURCE
+> Task :CordovaLib:generateDebugAssets UP-TO-DATE
+> Task :CordovaLib:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :CordovaLib:processDebugJavaRes
+> Task :app:compressDebugAssets
+> Task :CordovaLib:bundleLibResDebug
+> Task :CordovaLib:generateDebugRFile
+> Task :app:checkDebugDuplicateClasses
+> Task :app:processDebugResources
+
+> Task :CordovaLib:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :CordovaLib:bundleLibCompileToJarDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJavaResource
+> Task :app:compileDebugJavaWithJavac
+> Task :app:mergeDebugJniLibFolders
+> Task :CordovaLib:bundleLibRuntimeToJarDebug
+> Task :CordovaLib:mergeDebugJniLibFolders
+> Task :CordovaLib:mergeDebugNativeLibs NO-SOURCE
+> Task :CordovaLib:copyDebugJniLibsProjectOnly
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+> Task :app:cdvBuildDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 16s
+50 actionable tasks: 50 executed
+Built the following apk(s): 
+	/QuizApp/platforms/android/app/build/outputs/apk/debug/app-debug.apk
+
+2023-01-23 19:11:33,946 - PERFORMANCE: Elapsed: 38.42
+2023-01-23 19:11:33,946 - NAME: QuizApp
